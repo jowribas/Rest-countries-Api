@@ -1,0 +1,111 @@
+@media screen and (max-width: 1500px) {
+    .container--header{
+        max-width: 80%;
+    }
+    .countryDetails{
+        max-width: 80%;
+        margin-bottom: 70px;
+    }
+    .container--details .general--details{
+        margin-left: 40px;
+    }
+    .countryDetails .container--details .flag--larger{
+        width: 460px;
+        height: 328px
+    }
+    .container--main .container--homepage--itens{
+        max-width: 80%;
+    }
+    .container--main .areaCountry{
+        max-width: 80%;
+    }
+    .modelCountryBox{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+ }
+
+ @media screen and (max-width: 1200px) {
+    .countryDetails .container--details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .container--details .general--details{
+        margin-top: 55px;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        
+    }
+    .countryDetails .container--details .details{
+        max-height: 500px;
+    }
+    .countryDetails .container--details .flag--larger{
+        width: 100%;
+        height: 100%;
+        box-shadow: none;
+    }
+    .countryDetails .container--details .flag--larger img{
+        border-radius: 5px;
+    }
+    .container--main .container--homepage--itens{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        height: auto;
+    }
+    .capital--larger{
+        margin-bottom: 50px;
+    }
+    #filterByRegion{
+        margin-top: 30px;
+    }
+    .space-bc{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+ }
+
+ @media screen and (max-width: 950px) {
+
+    .container--main .container--homepage--itens .container--input #input{
+        width: 300px;
+    }
+    .container--main .container--homepage--itens{
+        align-items: flex-start;
+
+    }
+    .container--header h1{
+        font-size: 1.2em;
+    }
+    header{
+        font-size: 0.8em;
+    }
+    .modelCountryBox{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .container--main .areaCountry{
+        justify-content: center;
+    }
+   
+}   
+
+@media screen and (max-width: 280px) {
+    .container--header h1{
+        font-size: 1.1em;
+    }
+    header{
+        font-size: 0.7em;
+    }
+    .container--main .container--homepage--itens .container--input #input{
+        width: 200px;
+        padding-left: 55px; 
+    }
+    .container--main .container--homepage--itens #input::placeholder{
+        font-size: 0.8em;
+        
+    }
+}

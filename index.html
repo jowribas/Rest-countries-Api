@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/11dde3becc.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+    <title>Rest Countries Api</title>
+</head>
+<body>
+    <header>
+        <div class="container--header">
+            <h1>Where in the world?</h1>
+            <div class="theme">
+                <i id="moon" class="fa-sharp fa-solid fa-moon"></i>
+                <i id="sun" class="fa-solid fa-sun"></i>
+                <div class="theme--mode">Dark Mode</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="model">
+            <div class="modelCountryBox">
+                <div class="flag">
+                    <img src=""/>
+                </div>
+                <div class="info">
+                    <h3 class="name">Brazil</h3><br>
+                    <span class="population"><strong>Population:</strong> 220.770.000</span>
+                    <span class="regionInfo"><strong>Region:</strong> America</span>
+                    <span class="capital"><strong>Capital:</strong> Brasília</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container--main">
+            <div class="container--homepage--itens">
+                <div class="container--input">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="search" id="input" type="text" placeholder="Search for a country...">
+                </div>
+                    <div id="filterByRegion">
+                        <span>Filter By Region</span> 
+                        <i id="arrowIcon" class="fa-solid fa-chevron-down"></i>
+                        <div class="area--region--list">
+                            <div id="region">
+                                <span>All</span>
+                                <span>Africa</span>
+                                <span>America</span>
+                                <span>Asia</span>
+                                <span>Europe</span>
+                                <span>Oceania</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="areaCountry"></div> 
+        </div>
+
+        <section class="countryDetails">
+            <button class="back"><i class="fa-solid fa-arrow-left"></i>&nbsp&nbsp Back</button>
+            <div class="container--details">
+                <div class="flag--larger">
+                    <img src="" alt="">
+                </div>
+                <div class="general--details">
+                    <h1 class="name--larger">Brazil</h1><br>
+                        <div class="details">
+                           <span class="nativeName--larger"><strong>Native Name:</strong> Brasil</span>
+                           <span class="population--larger"><strong>Population:</strong> 220.770.000</span>
+                           <span class="regionInfo--larger"><strong>Region:</strong> América</span>
+                           <span class="subregion--larger"><strong>Sub Region:</strong> América do Sul</span>
+                           <span class="capital--larger"><strong>Capital:</strong> Brasília</span>
+                           <span class="tld--larger"><strong>Capital:</strong> Be</span>
+                           <span class="currency--larger"><strong>Currencies:</strong> Real</span>
+                           <span class="language--larger"><strong>Languages:</strong> Português</span> 
+                        </div>
+                        <span class="bordercoutries--larger"><strong>Border Countries:</strong></span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
