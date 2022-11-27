@@ -54,4 +54,4 @@ In javascript I used events and functions and api request.
 ## Author
 
 - Website - [Rest Countries Api request(https://rest-countries-api-ch.netlify.app/)
-- Frontend Mentor - [@jowribas]()
+- Frontend Mentor - [@jowribas](https://www.frontendmentor.io/profile/jowribas)
