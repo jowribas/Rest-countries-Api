@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Solution](https://github.com/jowribas/Rest-countries-Api)
+- Live Site URL: [Rest Countrie Api Requests](https://rest-countries-api-ch.netlify.app/)
 
 ## My process
 
@@ -53,5 +53,5 @@ In javascript I used events and functions and api request.
 
 ## Author
 
-- Website - [Rest Countries Api request()
+- Website - [Rest Countries Api request(https://rest-countries-api-ch.netlify.app/)
 - Frontend Mentor - [@jowribas]()
